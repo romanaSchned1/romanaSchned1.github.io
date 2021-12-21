@@ -3,7 +3,7 @@ let fromHTML = document.getElementById("textOutput");
 
 let codeka = ""; 
 
-let seenn=[
+let seen=[
     ["./img/seen1.jpg"],
     ["./img/seen2.jpg"],
     ["./img/seen3.jpg"],
