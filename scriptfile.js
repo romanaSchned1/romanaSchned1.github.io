@@ -16,7 +16,6 @@ for(let i = 0; i < seen.length; i++){
         
     }  
     codeka += "</div>" 
-    //fromHTML.innerHTML += `<p class="between"></p>`
 }
 
 fromHTML.innerHTML += codeka;
