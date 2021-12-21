@@ -1,0 +1,44 @@
+@font-face {
+    font-family: headline;
+    src: url(font/Zector.otf);
+}
+
+body{
+    background-color: #aeccdd;
+    font-family: headline;
+    font-size: 1.2rem;
+}
+html{
+    font-family: headline;
+}
+
+#headLine{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+img{
+    width:15vw;
+    height: 10vw;
+    margin:1vw;
+}
+
+.picturesSettings{
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 20vw;
+    height: 12vw;
+}
+
+
+.box{
+ text-align: center;
+}
+
+#textOutput{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    padding-left: 6%;
+}
