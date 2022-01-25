@@ -5,19 +5,41 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Themenseite</title>
        
-        <script src="./scriptfile.js" defer></script>
+        <script src="./scriptfileOne.js" defer></script>
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
 	<body>
 
-        <p id="headLine">Natur-Bilder</p>
+        <p id="headLine">Nature-Picture</p>
         <hr>
+        <div id="picItems">
+            <a class="linkSize" href="index.html">Home |</a>
+            <a class="linkSize" href="Unterseite1.html">Some Pictures</a>
+        </div>
 
-        <a class="linkSize" href="index.html">Home</a>
-        <a class="linkSize" href="Unterseite1.html">Natur-Videos</a>
+        <div id="slideshow">
+            <img class="picSmallSmall" src="img/seen1.jpg" alt="makro" onclick="savePic()">
+            <img class="picSmall" src="img/seen2.jpg" alt="makro" onclick="savePic()">
+            <img class="picBig" src="img/seen3.jpg" alt="makro" onclick="savePic()">
+            <img class="picSmall" src="img/seen4.jpg" alt="makro" onclick="savePic()">
+            <img class="picSmallSmall" src="img/seen5.jpg" alt="makro" onclick="savePic()">
+        
+        </div>
+        
+        <div id="buttonStyle">
+            <div class="button" id="buttonLeft">
+                <p> < </p>
+            </div>
+            
 
-        <div id="content">
-        <div id="textOutput"></div></div>
+            <div class="button" id="buttoRigth">
+                <p> > </p>
+            </div>
+
+        </div>
+
+
+       
     
         
     </body>
